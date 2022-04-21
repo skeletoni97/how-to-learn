@@ -26,6 +26,11 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 0;
+  background-color: #2f80ed;
 }
 .logo {
   width: 228px;
@@ -66,15 +71,6 @@
   height: 608px;
   width: 765px;
   z-index: 1;
-}
-.header__square-pic {
-  position: absolute;
-  top: 64px;
-  right: 0;
-  height: 568px;
-  width: 568px;
-  z-index: 0;
-  background-color: #2f80ed;
 }
 section {
   display: block;
