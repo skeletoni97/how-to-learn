@@ -86,10 +86,8 @@ section {
   margin: 0px auto;
 
 }
-.h1 {
-  font-size: 18px;
-  color: #2f80ed;
-}
+
+
 .two-columns__main-text {
   display: block;
   max-width: 784px;
@@ -118,6 +116,8 @@ section {
   width: 175px;
   line-height: 1.2;
   color: #2f80ed;
+  font-weight: 200;
+
 }
 .bigits {
   margin: 100px auto 100px;
@@ -177,13 +177,13 @@ display: block;
     font-weight: 700;
     width: 648px;
     right: 30%;
-    z-index: 2;
+    z-index: 1;
 }
 .feynman__subtitle {
   position: relative;
   text-align: center;
   top: 446px;
-  z-index: 2;
+  z-index: 1;
   line-height: 51px;
   font-size: 36px;
 
@@ -196,7 +196,7 @@ font-size: 36px;
 line-height: 51px;
 text-decoration: none;
 color: #2f80ed;
-z-index: 3;
+z-index: 1;
 
 }
 .img-feynman {
