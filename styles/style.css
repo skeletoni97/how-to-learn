@@ -35,44 +35,49 @@
 .logo {
   width: 228px;
   height: 32px;
-
-  font-size: 25px;
-  font-weight: 700;
 }
-.logo_place-header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
 
 
 }
-.title {
+.header__title {
   display: flex;
   vertical-align: middle;
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
+  padding: 0;
   align-self: center;
-  font-size: 80px;
+  font-size: 102px;
   font-weight: 700;
   line-height: 96px;
 }
-.subtitle {
+.header__subtitle {
   position: absolute;
   bottom: 30px;
   left: 64px;
   width: 388px;
   font-size: 18px;
   line-height:25px;
+  margin: 0;
+  padding: 0;
 }
-.main-illustration {
+.header__link {
+  text-decoration: none;
+}
+
+.header__main-illustration {
   position: absolute;
   bottom: 0;
   right: 0;
   height: 608px;
   width: 765px;
   z-index: 1;
+  object-fit: cover;
 }
-section {
+.content {
   display: block;
 }
 .description {
@@ -84,29 +89,21 @@ section {
   justify-content: space-between;
   width: 80%;
   margin: 0px auto;
-
 }
-
-
 .two-columns__main-text {
   display: block;
   max-width: 784px;
   width: 80%;
 }
-.two-columns__paragraph:first-of-type {
-  margin-top: 0px;
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
 }
-
-
 .two-columns__paragraph {
   font-size: 24px;
   line-height: 34px;
   display: block;
-  margin: 0px 0 29px;
+  margin: 0px 0 30px;
 }
-
-
-
 .two-columns__span-accent {
   font-size: 24px;
   line-height: 34px;
@@ -117,9 +114,10 @@ section {
   line-height: 1.2;
   color: #2f80ed;
   font-weight: 200;
-
+  margin: 0;
+  padding: 0;
 }
-.bigits {
+.digits {
   margin: 100px auto 100px;
 }
 .section-title {
@@ -144,51 +142,47 @@ section {
   margin: 0 auto;
   width: 1100px;
 }
-.table-cell {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
-.table-headin {
+.table__heading {
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
 }
-.table-text {
+.table__text {
   line-height: 1.2;
   font-size: 18px;
-  margin-top: 20px;
-display: block;
+  margin: 20px 0 0;
+  padding: 0;
 }
 .feynman {
-  background:#f2f2f2;
-  height: 890px;
+  background:#f2f2f2 url(../images/feynman.png) no-repeat bottom left;
+  min-height: 890px;
   position: relative;
-
-
+  background-size: 867px 637px;
 }
-.feynman__tatle {
-  position: absolute;
-    top: 100px;
+.feynman__title {
     line-height: 1.15;
     font-size: 120px;
-    margin: 0;
+    margin: 0 auto;
+    padding: 100px 0 0;
     text-align: center;
     font-weight: 700;
     width: 648px;
-    right: 30%;
     z-index: 1;
 }
 .feynman__subtitle {
-  position: relative;
   text-align: center;
-  top: 446px;
+  margin: 70px 0 0;
   z-index: 1;
   line-height: 51px;
   font-size: 36px;
 
 }
-.feynman-link {
+.feynman__link {
 position: absolute;
 top: 50%;
 right: 48px;
@@ -197,22 +191,21 @@ line-height: 51px;
 text-decoration: none;
 color: #2f80ed;
 z-index: 1;
+}
 
-}
-.img-feynman {
-  position: absolute;
-  bottom: 0;
-}
 .kaufman {
   background-color: #1f1f1f;
   padding: 90px 0 90px 0;
   position: relative;
   overflow: hidden;
-  z-index: -2;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table-cell_theme_dark {
+.table_theme_dark {
+
+}
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
@@ -223,9 +216,12 @@ z-index: 1;
 }
 .section-subtitle_theme_dark {
   color: white;
-  margin-bottom: 80px;
+
 }
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  width:877px;
+  height:877px;
   position: absolute;
   top: 0;
   right: -210px;
@@ -238,45 +234,42 @@ padding: 60px 0 40px;
 
 }
 
-.columns {
+.footer__columns {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  height: 250px;
   margin: auto;
-  color: white;
+  color: #fff;
 }
-.column-heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight:700;
   margin-bottom: 20px;
+  padding-bottom: 0;
 }
-.social-icon {
+.footer__social-icon {
   margin-right: 10px;
+  height:16px;
+  width: 16px;
 }
-.column-links {
-  text-decoration: none;
-  color: wheat;
+.footer__column-links {
   line-height: 30px;
   font-size: 18px;
   margin-bottom: 16px;
   padding: 0;
 }
-.column-link {
+.footer__column-link {
   list-style-type: none;
+  color: #fff;
+  text-decoration: none;
 }
-.colums_content_copyright {
+.footer__colums_content_copyright {
   flex-basis: 711px;
   position: relative;
 }
-.logo_place-footer {
-  color:white;
 
-
-}
-.author {
-  color:white;
+.footer__author {
   position:absolute;
   left:0;
   bottom:0;
