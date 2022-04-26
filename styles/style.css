@@ -273,11 +273,11 @@ background-color: #1f1f1f;
   color: #fff;
   text-decoration: none;
 }
-.footer__colum_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  justify-content: inherit;
+  justify-content: space-between;
 }
 
 .footer__author {
