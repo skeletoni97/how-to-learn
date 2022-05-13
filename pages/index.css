@@ -84,7 +84,7 @@
 @import url(../block/footer/footer.css);
 @import url(../block/footer/__columns/footer__columns.css);
 @import url(../block/footer/__colum/footer__colum.css);
-@import url(../block/footer/__colum/__column_content_copyright/footer__column_content_copyright.css);
+@import url(../block/footer/__colum_content_copyright/footer__colum_content_copyright.css);
 @import url(../block/footer/__author/footer__author.css);
 @import url(../block/footer/__column-heading/footer__column-heading.css);
 @import url(../block/footer/__column-link/footer__column-link.css);
