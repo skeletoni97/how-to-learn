@@ -6,6 +6,4 @@
   position: relative;
   display: flex;
   overflow: hidden;
-
-  /* выше установили ограничения для секции */
 }
