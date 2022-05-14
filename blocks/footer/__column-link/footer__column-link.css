@@ -3,9 +3,6 @@
   text-decoration: none;
 }
 .footer__column-link:hover {
-  color: #fff;
-  text-decoration: none;
   transition:0.2s linear;
   opacity: 0.3;
-  cursor: pointer;
 }

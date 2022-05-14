@@ -10,15 +10,6 @@
   z-index: 1;
   }
 .feynman__link:hover {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  font-size: 36px;
-  line-height: 51px;
-  text-decoration: none;
-  color: #2f80ed;
-  z-index: 1;
   transition:0.2s linear;
   opacity: 0.3;
-  cursor: pointer;
   }
